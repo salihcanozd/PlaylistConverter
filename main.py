@@ -5,7 +5,7 @@ from googleapiclient.errors import HttpError
 # Set up the API client
 api_service_name = "youtube"
 api_version = "v3"
-api_key = "AIzaSyCxvvpwXNqfHJhLq-GtmNT1jt7770oeCXM"  # Replace with your own YouTube Data API key
+api_key = ""  # Replace with your own YouTube Data API key
 
 # Function to retrieve video names from a playlist
 def get_video_names(playlist_id):
